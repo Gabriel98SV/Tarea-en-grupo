@@ -5,7 +5,11 @@ function calcularIMC() {
 
     // Para ingresar datos validos
     if (isNaN(peso) || isNaN(altura) || peso <= 0 || altura <= 0) {
-        alert('Por favor, ingresa valores válidos para peso y altura.');
+        Swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: "Por favor, ingresa valores válidos para peso y altura.",
+          });
         return;
     }
 
