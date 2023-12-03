@@ -32,3 +32,10 @@ img {
 .navbarScroll.navbarDark {
     background-color: rgb(58, 57, 57);
 } 
+
+
+body {
+    background-image: url(https://res.cloudinary.com/duqbmcsfv/image/upload/v1701632540/fondo_dwvuoe.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
