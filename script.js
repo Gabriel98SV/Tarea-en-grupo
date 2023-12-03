@@ -55,3 +55,17 @@ function calcularIMC() {
   const volverCalcular = () =>{
     document.querySelector('#resultados').innerHTML = ''
 }
+ //Función para scroll en navbar permanente según baje
+ //Defino constante header
+const header = document.querySelector('.navbar');
+
+//Función según variable de posición top
+window.onscroll = function() {
+    var top = window.scrollY;
+    if(top >=100) {
+        header.classList.add('navbarDark');
+    }
+    else {
+        header.classList.remove('navbarDark');
+    }
+}

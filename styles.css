@@ -1,3 +1,34 @@
 input{
     width: 60px;
 }
+
+.imglogo {
+    width: 30px ;
+    height: 30px;
+}
+.planesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+
+  .card-title {
+    text-align: right;
+}
+
+.card:hover .servicesIcon {
+    color:  rgb(7, 150, 62);
+}
+
+.planesText:hover {
+    border: 1px solid  rgb(7, 150, 62);
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+
+.navbarScroll.navbarDark {
+    background-color: rgb(58, 57, 57);
+} 
